@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+}
+
+.nav{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(200, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.nav div{
+    margin-left: 50px;
+}
+.nav a{
+    font-size: 25px;
+    margin-right: 50px; 
+}
+.nav-text{
+    width:fit-content;
+    margin-left: 80px;
+    border: 3px solid black;
+    border-radius: 1vh;
+    font-size: 40px;
+    box-shadow: 10px 5px 5px black;
+}
+.card{
+    width: 80%;
+    height: max-content;
+    border: 2px solid rgb(148, 31, 31);
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.card-header{
+    background-color: rgb(90, 151, 96);
+    height:50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.card-header h2{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.card-header h3{
+    margin-right:10px;
+}
+.post-content{
+    height: max-content;
+    font-size: 25px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.card-login{
+    width: 80%;
+    height: max-content;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+.input{
+    width: 80%;
+    height: 28px;
+    margin: 10px;
+}
+.login-header{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.btn-login{
+    margin: 10px;
+    width: 80.5%;
+    height: 30px;
+    color: black;
+    background-color: rgb(10, 191, 13);
+}
+.sign-up{
+    margin: 10px;
+    font-size: 25px;
+}
+.post-upload {
+    height: 100px;
+    width: 90%;
+    margin: 20px 0 20px 90px;
+    background-color: rgb(141, 202, 142);
+}
+.title-upload {
+    height: 50px;
+    width: 90%;
+    margin: 20px 0 20px 90px;
+    background-color: rgb(44, 212, 18);
+}
+.title {
+    margin-left: 90px;
+    font-size: 30px;
+}
+.btn-update{
+    height: 40px;
+    margin: 15px;
+}
+.btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 100%;
+    transition: color 0.1s;
+    margin-left: 16px;
+  }
+
+  .new-post {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .dashboard-btn{
+    margin: 5px;
+  }
