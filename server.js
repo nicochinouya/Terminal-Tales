@@ -20,6 +20,7 @@ const sess = {
         db: sequelize
     })
 };
+const hbs = exphbs.create({ helpers });
 
 // Setting up session middleware
 app.use(session(sess));
