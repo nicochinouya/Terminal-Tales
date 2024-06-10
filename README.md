@@ -83,6 +83,8 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
----
+## Screenshot
+
+https://github.com/nicochinouya/TerminalTales/blob/main/other-files/screenshot.png
 
 Feel free to reach out if you have any questions or need further assistance. Happy blogging!
